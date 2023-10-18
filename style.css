@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,900&family=Raleway&family=Rock+Salt&family=Xanh+Mono&display=swap');
+body {
+    font-family: xanh mono,monospace;
+    background-image: url(backgroundimage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .form-container {
+    background: #f1f1f1;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(202, 255, 219, 0.6);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+
+  a{
+    font-size: small;
+    color: blue;
+    text-decoration: none;
+    transform: 0.5s;
+  }
+
+  a:hover{
+    color: rgb(115, 24, 176);
+  }

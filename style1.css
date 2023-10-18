@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,900&family=Raleway&family=Rock+Salt&family=Xanh+Mono&display=swap');
+body {
+    font-family:  xanh mono,monospace;
+    background-image: url(backgroundimage.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+  .container{
+    margin-top: 6%;
+    display: grid;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    background-color:  #f83131;
+    margin-bottom: 5px;
+  }
+  
+  li:hover {
+    background-color:#ff5555;
+  }
